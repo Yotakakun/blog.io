@@ -639,12 +639,12 @@ fragment_cache: true
 # 可根據需要自行添加js/css
 CDN_USE:
   css:
-    - /css/index.css
+    - ./css/index.css
 
   js:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
-    - /js/utils.js
-    - /js/main.js
+    - ./js/utils.js
+    - ./js/main.js
 
 # CDN
 # 非必要不要修改
@@ -680,9 +680,9 @@ CDN:
   busuanzi: //busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
   # background effect
-  canvas_ribbon: /js/third-party/canvas-ribbon.js
-  canvas_ribbon_piao: /js/third-party/piao.js
-  canvas_nest: /js/third-party/canvas-nest.js
+  canvas_ribbon: ./js/third-party/canvas-ribbon.js
+  canvas_ribbon_piao: ./js/third-party/piao.js
+  canvas_nest: ./js/third-party/canvas-nest.js
 
   lazyload: https://cdn.jsdelivr.net/npm/lazysizes@latest/lazysizes.min.js
   instantpage: https://cdn.jsdelivr.net/npm/instant.page@latest/instantpage.min.js
@@ -701,13 +701,13 @@ CDN:
 
   # 鼠標點擊特效
   anime: https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js
-  activate_power_mode: /js/third-party/activate-power-mode.js
-  fireworks: /js/third-party/fireworks.js
-  click_heart: /js/third-party/click_heart.js
-  ClickShowText: /js/third-party/ClickShowText.js
+  activate_power_mode: ./js/third-party/activate-power-mode.js
+  fireworks: ./js/third-party/fireworks.js
+  click_heart: ./js/third-party/click_heart.js
+  ClickShowText: ./js/third-party/ClickShowText.js
 
   # fontawesome
   fontawesome_v4: https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
   fontawesome_v5: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
 
-  translate: /js/tw_cn.js
+  translate: ./js/tw_cn.js
